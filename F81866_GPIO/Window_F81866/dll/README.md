@@ -1,0 +1,1 @@
+把这三个dll 放进 C:\Windows\System32 中

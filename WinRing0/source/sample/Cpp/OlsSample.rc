@@ -1,0 +1,246 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日语 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#include ""res\\OlsSample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GPIO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,0,13
+ PRODUCTVERSION 1,3,0,13
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040004b0"
+        BEGIN
+            VALUE "Comments", "The modified BSD license"
+            VALUE "CompanyName", "OpenLibSys.org"
+            VALUE "FileDescription", "WinRing0 Sample for C++"
+            VALUE "FileVersion", "1.3.0.13"
+            VALUE "InternalName", "WinRing0SampleCpp.exe"
+            VALUE "LegalCopyright", "Copyright 2007-2009 OpenLibSys.org. All rights reserved."
+            VALUE "OriginalFilename", "WinRing0SampleCpp.exe"
+            VALUE "ProductName", "WinRing0"
+            VALUE "ProductVersion", "1.3.0.13"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x400, 1200
+    END
+END
+
+#endif    // 日语 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 非特定语言(系统默认值) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OLSSAMPLE_DIALOG DIALOGEX 0, 0, 239, 195
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GPIO_W83627"
+FONT 9, "Courier New", 400, 0, 0x0
+BEGIN
+    CONTROL         "0",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,16,20,10
+    CONTROL         "1",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,118,16,20,10
+    CONTROL         "0",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,35,20,10
+    CONTROL         "1",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,118,35,20,10
+    CONTROL         "0",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,54,20,10
+    CONTROL         "1",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,118,54,20,10
+    CONTROL         "0",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,72,20,10
+    CONTROL         "1",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,118,72,20,10
+    CONTROL         "0",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,91,20,10
+    CONTROL         "1",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,118,91,20,10
+    CONTROL         "0",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,111,20,10
+    CONTROL         "1",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,118,110,20,10
+    LTEXT           "Pin1",IDC_STATIC,9,17,17,8
+    LTEXT           "Pin3",IDC_STATIC,9,36,17,8
+    LTEXT           "Pin5",IDC_STATIC,9,54,17,8
+    LTEXT           "Pin7",IDC_STATIC,9,72,17,8
+    LTEXT           "Pin4",IDC_STATIC,9,91,17,8
+    LTEXT           "Pin6",IDC_STATIC,9,112,17,8
+    PUSHBUTTON      "Exit",IDC_BUTTON1,7,166,222,22
+    PUSHBUTTON      "Output",IDC_BUTTON4,38,14,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON5,146,14,42,14
+    EDITTEXT        IDC_EDIT2,193,14,37,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Output",IDC_BUTTON6,38,34,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON7,146,33,42,14
+    PUSHBUTTON      "Output",IDC_BUTTON8,38,54,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON9,146,54,42,14
+    PUSHBUTTON      "Output",IDC_BUTTON10,38,72,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON11,146,72,42,14
+    PUSHBUTTON      "Output",IDC_BUTTON12,38,91,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON13,146,91,42,14
+    PUSHBUTTON      "Output",IDC_BUTTON14,38,110,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON15,146,110,42,14
+    EDITTEXT        IDC_EDIT3,193,35,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,193,54,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,193,72,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,193,91,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,193,110,37,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Output",IDC_BUTTON16,38,127,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON17,146,127,42,14
+    PUSHBUTTON      "Output",IDC_BUTTON18,38,145,42,14
+    PUSHBUTTON      "Intput",IDC_BUTTON19,146,145,42,14
+    EDITTEXT        IDC_EDIT8,193,127,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,193,145,37,12,ES_AUTOHSCROLL
+    CONTROL         "0",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,127,20,10
+    CONTROL         "1",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,118,127,20,10
+    CONTROL         "0",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON | WS_GROUP,89,145,20,10
+    CONTROL         "1",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,118,145,20,10
+    LTEXT           "Pin8",IDC_STATIC,9,127,17,8
+    LTEXT           "Pin10",IDC_STATIC,9,145,23,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OLSSAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        VERTGUIDE, 14
+        VERTGUIDE, 58
+        VERTGUIDE, 87
+        VERTGUIDE, 115
+        VERTGUIDE, 162
+        VERTGUIDE, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+        HORZGUIDE, 14
+        HORZGUIDE, 21
+        HORZGUIDE, 35
+        HORZGUIDE, 40
+        HORZGUIDE, 54
+        HORZGUIDE, 60
+        HORZGUIDE, 72
+        HORZGUIDE, 77
+        HORZGUIDE, 91
+        HORZGUIDE, 96
+        HORZGUIDE, 110
+        HORZGUIDE, 116
+        HORZGUIDE, 127
+        HORZGUIDE, 145
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 非特定语言(系统默认值) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#pragma code_page(932)
+#include "res\OlsSample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
