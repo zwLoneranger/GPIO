@@ -35,9 +35,7 @@ su (以 root 身份运行)
 
 ![](picture/Linux_F81866_GPIO.png)
 
-根据提示控制 GPIO。
-
-例如 控制 GPIO 80 即 Pin1，
+根据提示控制 GPIO。例如 控制 GPIO 80 即 Pin1，
 
 - 在程序中输入 1,0 （控制GPIO 1脚 转换为输出模式，值为0） 
 
